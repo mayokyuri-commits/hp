@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumire（ルミア） | Web制作・ホームページ制作会社</title>
+  <meta name="description" content="Lumire（ルミア）は、ビジネスの魅力を最大限に引き出す、モダンで成果につながるホームページ制作会社です。デザイン・開発・運用まで一気通貫でサポートします。" />
+  <meta name="theme-color" content="#0b0d1a" />
+
+  <!-- OGP -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lumire（ルミア） | Web制作・ホームページ制作会社" />
+  <meta property="og:description" content="ビジネスを、デザインの力で前へ。成果につながるモダンなホームページを制作します。" />
+  <meta property="og:site_name" content="Lumire" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background decoration -->
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo" aria-label="Lumire ホーム">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Lumire</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav-link">サービス</a>
+        <a href="#works" class="nav-link">制作実績</a>
+        <a href="#flow" class="nav-link">制作の流れ</a>
+        <a href="#pricing" class="nav-link">料金</a>
+        <a href="#about" class="nav-link">会社概要</a>
+        <a href="#contact" class="btn btn-sm nav-cta">お問い合わせ</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow reveal">WEB PRODUCTION STUDIO</p>
+        <h1 class="hero-title reveal">
+          ビジネスを、<br />
+          <span class="gradient-text">デザインの力</span>で前へ。
+        </h1>
+        <p class="hero-lead reveal">
+          Lumire（ルミア）は、ブランドの魅力を引き出し、成果につながる
+          モダンなホームページを制作するWeb制作スタジオです。<br />
+          戦略設計からデザイン・開発・運用まで、ワンストップでお任せください。
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">無料で相談する</a>
+          <a href="#works" class="btn btn-ghost">制作実績を見る →</a>
+        </div>
+        <ul class="hero-stats reveal">
+          <li><strong data-count="120">0</strong><span>制作実績</span></li>
+          <li><strong data-count="98">0</strong><span>満足度 %</span></li>
+          <li><strong data-count="14">0</strong><span>最短納期 日</span></li>
+        </ul>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span></span>Scroll
+      </div>
+    </section>
+
+    <!-- Logos / trust -->
+    <section class="marquee" aria-label="対応領域">
+      <div class="marquee-track">
+        <span>Corporate Site</span><span>•</span>
+        <span>Landing Page</span><span>•</span>
+        <span>EC Site</span><span>•</span>
+        <span>Branding</span><span>•</span>
+        <span>UI / UX Design</span><span>•</span>
+        <span>Web System</span><span>•</span>
+        <span>SEO</span><span>•</span>
+        <span>Corporate Site</span><span>•</span>
+        <span>Landing Page</span><span>•</span>
+        <span>EC Site</span><span>•</span>
+        <span>Branding</span><span>•</span>
+        <span>UI / UX Design</span><span>•</span>
+        <span>Web System</span><span>•</span>
+        <span>SEO</span><span>•</span>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">SERVICES</p>
+          <h2 class="section-title">私たちにできること</h2>
+          <p class="section-desc">
+            「作って終わり」にしない。ビジネスの成長に寄り添う4つのサービスを提供します。
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">🎨</div>
+            <h3>ホームページ制作</h3>
+            <p>コーポレートサイトからサービスサイトまで。ブランドの世界観を表現し、信頼を生むデザインを設計します。</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🚀</div>
+            <h3>LP・ランディングページ</h3>
+            <p>広告やキャンペーンの成果を最大化。心を動かす導線設計とコピーで、コンバージョンを引き上げます。</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🛍️</div>
+            <h3>ECサイト構築</h3>
+            <p>売れる仕組みをまるごと構築。決済・在庫・運用までを見据えた、使いやすいオンラインストアを実現します。</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📈</div>
+            <h3>運用・SEO・改善</h3>
+            <p>公開後も継続的にサポート。アクセス解析にもとづく改善とSEO対策で、成果を伸ばし続けます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features / Why us -->
+    <section class="section section-alt" id="features">
+      <div class="container features-grid">
+        <div class="features-text reveal">
+          <p class="section-eyebrow">WHY LUMIRE</p>
+          <h2 class="section-title">選ばれる、3つの理由</h2>
+          <p class="section-desc">
+            私たちはデザインの美しさと、ビジネスの成果。その両方にこだわります。
+          </p>
+        </div>
+        <div class="features-list">
+          <div class="feature reveal">
+            <span class="feature-no">01</span>
+            <div>
+              <h3>成果から逆算した設計</h3>
+              <p>見た目だけでなく「誰に・何を届け・どう動いてもらうか」を起点に設計。デザインを成果につなげます。</p>
+            </div>
+          </div>
+          <div class="feature reveal">
+            <span class="feature-no">02</span>
+            <div>
+              <h3>最新技術 × 高速表示</h3>
+              <p>モダンな技術で、速く・安全で・スマホでも美しいサイトを構築。表示速度はSEOにも直結します。</p>
+            </div>
+          </div>
+          <div class="feature reveal">
+            <span class="feature-no">03</span>
+            <div>
+              <h3>ワンストップ＆伴走型</h3>
+              <p>企画・デザイン・開発・運用までを一気通貫で。公開後も長くパートナーとして伴走します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">WORKS</p>
+          <h2 class="section-title">制作実績</h2>
+          <p class="section-desc">業種・規模を問わず、多くのプロジェクトを手がけてきました。</p>
+        </div>
+        <div class="works-grid">
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-1"><span class="work-tag">Corporate</span></div>
+            <div class="work-meta"><h3>製造業 コーポレートサイト</h3><p>ブランドリニューアル・多言語対応</p></div>
+          </a>
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-2"><span class="work-tag">Landing Page</span></div>
+            <div class="work-meta"><h3>SaaS サービスLP</h3><p>CVR 2.4倍を達成</p></div>
+          </a>
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-3"><span class="work-tag">EC</span></div>
+            <div class="work-meta"><h3>アパレル ECサイト</h3><p>ブランド世界観の表現と購買導線</p></div>
+          </a>
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-4"><span class="work-tag">Branding</span></div>
+            <div class="work-meta"><h3>クリニック サイト＋ロゴ</h3><p>ブランディングから一括対応</p></div>
+          </a>
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-5"><span class="work-tag">Corporate</span></div>
+            <div class="work-meta"><h3>スタートアップ 採用サイト</h3><p>採用応募数 3倍に</p></div>
+          </a>
+          <a class="work reveal" href="#contact">
+            <div class="work-thumb work-thumb-6"><span class="work-tag">Web System</span></div>
+            <div class="work-meta"><h3>予約システム付きサイト</h3><p>業務効率化と顧客体験を両立</p></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flow -->
+    <section class="section section-alt" id="flow">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">FLOW</p>
+          <h2 class="section-title">制作の流れ</h2>
+          <p class="section-desc">お問い合わせから公開後の運用まで、安心の5ステップ。</p>
+        </div>
+        <ol class="flow">
+          <li class="flow-step reveal">
+            <span class="flow-no">01</span>
+            <h3>お問い合わせ・ヒアリング</h3>
+            <p>目的・課題・ご予算をお伺いし、最適なご提案を行います。相談は何度でも無料です。</p>
+          </li>
+          <li class="flow-step reveal">
+            <span class="flow-no">02</span>
+            <h3>ご提案・お見積もり</h3>
+            <p>戦略設計をもとに、構成・デザイン方針・スケジュールとお見積もりをご提示します。</p>
+          </li>
+          <li class="flow-step reveal">
+            <span class="flow-no">03</span>
+            <h3>デザイン制作</h3>
+            <p>ブランドに合わせたデザインを制作。納得いただけるまで丁寧に調整します。</p>
+          </li>
+          <li class="flow-step reveal">
+            <span class="flow-no">04</span>
+            <h3>開発・実装</h3>
+            <p>高速・安全・スマホ対応で構築。表示速度やSEOにも配慮して実装します。</p>
+          </li>
+          <li class="flow-step reveal">
+            <span class="flow-no">05</span>
+            <h3>公開・運用サポート</h3>
+            <p>公開後も改善・更新を継続サポート。成果を伸ばし続けるパートナーに。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">PRICING</p>
+          <h2 class="section-title">料金プラン</h2>
+          <p class="section-desc">わかりやすい料金で、目的に合わせて最適なプランをご用意。</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="plan reveal">
+            <h3 class="plan-name">Light</h3>
+            <p class="plan-for">小規模・スタートに</p>
+            <p class="plan-price"><span class="plan-from">¥</span>150,000<span class="plan-unit">〜</span></p>
+            <ul class="plan-features">
+              <li>〜5ページ構成</li>
+              <li>レスポンシブ対応</li>
+              <li>お問い合わせフォーム</li>
+              <li>基本SEO設定</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-block">相談する</a>
+          </article>
+          <article class="plan plan-featured reveal">
+            <span class="plan-badge">人気</span>
+            <h3 class="plan-name">Standard</h3>
+            <p class="plan-for">本格的なコーポレートサイトに</p>
+            <p class="plan-price"><span class="plan-from">¥</span>400,000<span class="plan-unit">〜</span></p>
+            <ul class="plan-features">
+              <li>〜15ページ構成</li>
+              <li>オリジナルデザイン</li>
+              <li>CMS（更新システム）導入</li>
+              <li>SEO・表示速度最適化</li>
+              <li>公開後サポート 3ヶ月</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">相談する</a>
+          </article>
+          <article class="plan reveal">
+            <h3 class="plan-name">Premium</h3>
+            <p class="plan-for">EC・システム連携に</p>
+            <p class="plan-price"><span class="plan-from">¥</span>800,000<span class="plan-unit">〜</span></p>
+            <ul class="plan-features">
+              <li>ページ数 応相談</li>
+              <li>ブランディング・撮影手配</li>
+              <li>EC / 予約 / 会員機能</li>
+              <li>運用・改善サポート</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-block">相談する</a>
+          </article>
+        </div>
+        <p class="pricing-note reveal">※ 記載は税抜の目安金額です。内容により変動します。まずはお気軽にご相談ください。</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div class="about-intro reveal">
+          <p class="section-eyebrow">ABOUT</p>
+          <h2 class="section-title">会社概要</h2>
+          <p class="section-desc">
+            私たちは「デザインの力で、ビジネスの可能性を広げる」ことをミッションに掲げる
+            Web制作スタジオです。小さな会社だからこそ、一社一社に向き合い、
+            本当に成果につながるサイトづくりにこだわります。
+          </p>
+          <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+        </div>
+        <dl class="about-table reveal">
+          <div><dt>会社名</dt><dd>Lumire（ルミア）</dd></div>
+          <div><dt>事業内容</dt><dd>Webサイト制作 / LP制作 / ECサイト構築 / ブランディング / 運用・SEO支援</dd></div>
+          <div><dt>設立</dt><dd>2026年</dd></div>
+          <div><dt>所在地</dt><dd>日本</dd></div>
+          <div><dt>対応エリア</dt><dd>全国（オンライン対応可）</dd></div>
+          <div><dt>連絡先</dt><dd><a href="mailto:contact@lumire.example">contact@lumire.example</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-text">
+            <p class="section-eyebrow">CONTACT</p>
+            <h2 class="section-title">まずは、お気軽にご相談ください</h2>
+            <p class="section-desc">
+              「何から始めればいいかわからない」段階でも大丈夫です。<br />
+              ご相談・お見積もりは無料。1営業日以内にご返信します。
+            </p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label>お名前
+                <input type="text" name="name" required placeholder="山田 太郎" />
+              </label>
+              <label>会社名
+                <input type="text" name="company" placeholder="株式会社サンプル" />
+              </label>
+            </div>
+            <label>メールアドレス
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+            <label>ご相談内容
+              <textarea name="message" rows="4" required placeholder="制作したいサイトのイメージやご予算、ご希望の納期などをお書きください。"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary btn-block">送信する</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text">Lumire</span>
+        </a>
+        <p>ビジネスを、デザインの力で前へ。</p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビ">
+        <a href="#services">サービス</a>
+        <a href="#works">制作実績</a>
+        <a href="#flow">制作の流れ</a>
+        <a href="#pricing">料金</a>
+        <a href="#about">会社概要</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Lumire. All rights reserved.</small>
+      <a href="#hero" class="to-top">ページトップへ ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
